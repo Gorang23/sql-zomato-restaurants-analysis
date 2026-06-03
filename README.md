@@ -65,22 +65,25 @@ mysql -u root zomato < queries/02_restaurant_performance.sql
 
 ## Project Structure
 ```
-zomato-bangalore-analysis-mysql/
-├── README.md
+sql-zomato-restaurants-analysis/
+│
+├── 01_data_cleaning.sql
+├── 02_restaurant_performance.sql
+├── 03_cuisine_analysis.sql
+├── 04_cost_analysis.sql
+├── 05_popularity_engagement.sql
+├── 06_location_intelligence.sql
+├── 07_advanced_text_parsing.sql
+|
+├── Screenshot 2026-06-03 155111.png
+├── Screenshot 2026-06-03 155237.png
+├── Screenshot 2026-06-03 155513.png
+├── Screenshot 2026-06-03 155621.png
+|── Screenshot 2026-06-03 155721.png
+|
+|── README.md
 ├── schema.sql
-├── data/
-│   └── zomato.csv
-├── queries/
-│   ├── 01_data_cleaning.sql
-│   ├── 02_restaurant_performance.sql
-│   ├── 03_cuisine_analysis.sql
-│   ├── 04_cost_analysis.sql
-│   ├── 05_popularity_engagement.sql
-│   ├── 06_location_intelligence.sql
-│   └── 07_advanced_text_parsing.sql
-└── findings/
-    └── insights_summary.md
-```
+├── insights_summary.md
 
 ## Skills Demonstrated
 - Data cleaning & preparation (handling messy real-world data)
